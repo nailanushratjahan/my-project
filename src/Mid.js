@@ -1,5 +1,7 @@
 import React from 'react'
 import MyImage from './appdata/img.png'
+import Todo from './Todo';
+
 
 import Image1 from './appdata/img1.png'
 import Image2 from './appdata/img2.png'
@@ -24,6 +26,18 @@ export default function Mid() {
     </div>
   </div>
 </div>
+
+<div className='flex items-center justify-center h-screen'>
+<div className="mockup-phone ">
+  <div className="camera"></div> 
+  <div className="display">
+    <div className="artboard artboard-demo phone-1"><Todo/></div>
+  </div>
+</div>
+</div>
+
+
+
 
 
 
